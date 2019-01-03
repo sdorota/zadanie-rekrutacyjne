@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    $("img").click(function () {
+    $("sendButton").click(function () {
 
         var videoID = $(this).attr("id");
 
@@ -30,10 +30,3 @@ $(document).ready(function(){
 //     });
 //   }
 
-
-// $(document).ready(function () {
-//     var ID;
-//     function getMovie(ID) {
-
-//     }
-// }
